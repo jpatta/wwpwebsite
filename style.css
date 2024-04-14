@@ -5,10 +5,16 @@
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Calibri', sans-serif;
     line-height: 1.6;
-    color: #666;
-    background: #F6F6F6;
+    color: #8cc0f5;
+    background: #080132;
+  }
+
+  a:link {
+    color: #8cc0f5;
+    background-color: transparent;
+    text-decoration: none;
   }
   
   #root {
@@ -19,7 +25,7 @@
   h1 {
     text-align: center;
     padding: 1.5rem 2.5rem;
-    background-image: linear-gradient(120deg, #fbc2eb 0%, #eea6a6 100%);
+    background-image: linear-gradient(120deg, #c2dbfb 0%, #5212f4 100%);
     margin: 0 0 2rem 0;
     font-size: 1.5rem;
     color: white;
@@ -28,7 +34,7 @@
   h2 {
     text-align: center;
     padding: .5rem .5rem;
-    background-image: linear-gradient(120deg, #ee0303 0%, #fd0404 100%);
+    background-image: linear-gradient(120deg, #060360 0%, #8586eb 100%);
     font-size: 1.2rem;
     color: rgb(238, 255, 5);
   }
@@ -42,6 +48,10 @@
   p {
     padding: 1rem 2.5rem 1.5rem;
     margin: 0;
+  }
+
+  .email {
+    text-align: center;
   }
 
   table {
@@ -60,7 +70,7 @@
   
   .card {
     margin: 1rem;
-    background: white;
+    background: rgb(48, 1, 176);
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 12px;
     overflow: hidden;
@@ -85,19 +95,19 @@
   }
   
   .card:nth-child(2n) h1 {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(120deg, #8496fa 0%, #8fd3f4 100%);
   }
   
   .card:nth-child(3n) h1 {
-    background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+    background-image: linear-gradient(120deg, #ab9aff 0%, #012989 100%);
   }
   
   .card:nth-child(4n) h1 {
-    background-image: linear-gradient(120deg, #ecaf06 0%, #f7f0b5 100%);
+    background-image: linear-gradient(120deg, #6d06ec 0%, #beb5f7 100%);
   }
 
   .card:nth-child(5n) h1 {
-    background-image: linear-gradient(120deg, #f8afa3 0%, #ffafbd 100%);
+    background-image: linear-gradient(120deg, #a3bdf8 0%, #1a0138 100%);
   }
 
   ul {
